@@ -1,9 +1,20 @@
 .shop-panel {
   header {
+    position: relative;
+
+    img {
+      position: absolute;
+      top: -8rem;
+    }
+
     p {
       color: var(--grey-0);
       max-width: 30rem;
       margin: -1rem auto 1.2rem;
+    }
+
+    h1, p {
+      position: relative;
     }
   }
 
