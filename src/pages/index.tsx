@@ -1,10 +1,14 @@
+import InnerPanel from "@/components/InnerPanel";
 import { Layout } from "@/components/Layout";
+import ShopPanel from "@/components/shop-panel/ShopPanel";
 
 
 export default function Index() {
   return (
     <Layout>
-      <h1>Our Collection</h1>
+      <InnerPanel>
+        <ShopPanel />
+      </InnerPanel>
     </Layout>
   );
 }

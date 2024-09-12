@@ -1,9 +1,25 @@
 @import "./settings/colors";
 @import "./settings/fonts";
 @import "./components/layout";
+@import "./components/inner-panel";
+@import "./components/shop-panel";
 
 * {
   box-sizing: border-box;
+  scrollbar-width: auto;
+
+  &::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--grey-dark-3);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--grey-0);
+    border-radius: 10px;
+  }
 }
 
 #__next {
@@ -17,6 +33,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'DM Sans', sans-serif, system-ui;
+  overflow: hidden;
+  font-size: var(--font-body);
 }
 
 h1 {
