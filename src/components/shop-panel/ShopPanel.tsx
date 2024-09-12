@@ -1,4 +1,5 @@
 import Button from "../library/Button";
+import ShopPanelGrid from "./ShopPanelGrid";
 import ShopPanelHeader from "./ShopPanelHeader";
 
 
@@ -11,6 +12,8 @@ export default function ShopPanel() {
         <Button variant={['primary']}>All Products</Button>
         <Button variant={['secondary']}>Available Now</Button>
       </div>
+
+      <ShopPanelGrid />
     </div>
   );
 }
