@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import BannerImg from "./BannerImg";
 
 interface Props {
   children: React.ReactNode
@@ -20,10 +21,9 @@ export function Layout({ children, title }: Props) {
 
   return (
     <div style={{ height: '100%' }}>
-      <div className="layout__container">
-        <div className="layout__main-content">
-          { children }
-        </div>
+      <div className="layout">
+        <BannerImg src="/images/cafe-banner.jpg" alt="Banner image" />
+        { children }
       </div>
     </div>
   );

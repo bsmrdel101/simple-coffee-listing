@@ -1,9 +1,10 @@
 import { Layout } from "@/components/Layout";
 
+
 export default function Index() {
   return (
     <Layout>
-      <h1>Hello World</h1>
+      <h1>Our Collection</h1>
     </Layout>
   );
 }
