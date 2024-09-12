@@ -3,8 +3,13 @@
     p {
       color: var(--grey-0);
       max-width: 30rem;
-      margin: -1rem auto;
-      font-weight: 500;
+      margin: -1rem auto 1.2rem;
     }
+  }
+
+  &__control-row {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
   }
 }

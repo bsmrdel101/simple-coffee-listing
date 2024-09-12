@@ -1,0 +1,23 @@
+.button {
+  background-color: transparent;
+  color: var(--light-0);
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  font-size: var(--font-label);
+  font-weight: 550;
+
+  &:hover {
+    border: 1px solid var(--light-0);
+  }
+
+  &--primary {
+    background-color: var(--grey-0);
+  }
+
+  &--secondary {
+    border-color: transparent;
+  }
+}

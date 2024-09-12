@@ -1,10 +1,16 @@
+import Button from "../library/Button";
+import ShopPanelHeader from "./ShopPanelHeader";
+
+
 export default function ShopPanel() {
   return (
     <div className="shop-panel">
-      <header>
-        <h1>Our Collection</h1>
-        <p>Introducing our Coffee Collection, a selection of unique coffees from different roast types and origins, expertly roasted in small batches and shipped fresh weekly.</p>
-      </header>
+      <ShopPanelHeader />
+
+      <div className="shop-panel__control-row">
+        <Button variant={['primary']}>All Products</Button>
+        <Button variant={['secondary']}>Available Now</Button>
+      </div>
     </div>
   );
 }
