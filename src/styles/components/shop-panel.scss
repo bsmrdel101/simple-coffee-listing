@@ -58,6 +58,11 @@
     font-size: var(--font-price);
   }
 
+  &__rating-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
   &__rating {
     font-size: var(--font-label);
     display: flex;
@@ -66,7 +71,15 @@
 
     span {
       color: var(--grey-0);
+      font-weight: 650;
     }
+  }
+
+  &__sold-out {
+    color: var(--red-0);
+    font-weight: 600;
+    font-size: var(--font-label);
+    align-self: center;
   }
 
   &__popular-tag {
