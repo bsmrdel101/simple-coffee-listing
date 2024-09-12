@@ -8,6 +8,6 @@ interface Props {
 
 export default function BannerImg({ src, alt }: Props) {
   return (
-    <Image src={src} alt={alt} className="banner-img" fill />
+    <Image src={src} alt={alt} className="banner-img" fill priority />
   );
 }
